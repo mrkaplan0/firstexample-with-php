@@ -1,0 +1,71 @@
+header {
+  background-color: cadetblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.kalorie,
+.mathetrainer {
+  width: 45%;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  padding: 1%;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.kalorie form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.kalorie input, .submit {
+  margin-top: 5px;
+  padding: 5px;
+  width: 50%;
+}
+
+.submit:hover {
+  padding: 5px;
+
+  background-color: cadetblue;
+  color: white;
+}
+
+.answer{
+   display: none;
+}
+
+.answer:target{
+    display: block;
+}

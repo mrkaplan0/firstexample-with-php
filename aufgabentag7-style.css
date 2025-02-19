@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: khaki;
+  color: black;
+  text-align: center;
+  padding: 3em;
+}
+header h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 2px rgba(139, 132, 65, 0.5);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.zufallzahl,
+.woche,
+.wuerfel,
+.generate-password,
+.monat,
+.lotto,
+.geburtstag, .wuerfelspiel {
+  width: 30%;
+  height: 400px;
+  background-color: rgb(245, 239, 186);
+  border: 1px solid rgb(139, 132, 65);
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.zufallzahl:hover,
+.woche:hover,
+.wuerfel:hover,
+.generate-password:hover,
+.monat:hover,
+.lotto:hover .geburtstag:hover, .wuerfelspiel:hover{
+  background-color: rgb(239, 229, 146);
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+  box-shadow: 0 0 10px rgba(139, 132, 65, 0.5);
+  cursor: pointer;
+}
+
+.geburtstag form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.geburtstag input,
+button {
+  margin: 10px;
+  padding: 5px;
+  font-size: 1em;
+  width: 90%;
+  text-align: center;
+}
